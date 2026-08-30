@@ -1,0 +1,4 @@
+[submodule "GamesGoEngine"]
+	path = GamesGoEngine
+	url = https://github.com/xyc1993/GamesGoEngine
+	branch = main

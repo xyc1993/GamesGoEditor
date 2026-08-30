@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.37614.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GamesGoEditor", "GamesGoEditor\GamesGoEditor.vcxproj", "{511B079B-A94B-424D-AFD5-EAD4568674B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA6201AC-B16A-4999-9B2E-4102066EF962} = {FA6201AC-B16A-4999-9B2E-4102066EF962}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GamesGoEngine", "GamesGoEngine\GamesGoEngine\GamesGoEngine.vcxproj", "{FA6201AC-B16A-4999-9B2E-4102066EF962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,14 @@ Global
 		{511B079B-A94B-424D-AFD5-EAD4568674B5}.Release|x64.Build.0 = Release|x64
 		{511B079B-A94B-424D-AFD5-EAD4568674B5}.Release|x86.ActiveCfg = Release|Win32
 		{511B079B-A94B-424D-AFD5-EAD4568674B5}.Release|x86.Build.0 = Release|Win32
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Debug|x64.ActiveCfg = Debug|x64
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Debug|x64.Build.0 = Debug|x64
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Debug|x86.Build.0 = Debug|Win32
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Release|x64.ActiveCfg = Release|x64
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Release|x64.Build.0 = Release|x64
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Release|x86.ActiveCfg = Release|Win32
+		{FA6201AC-B16A-4999-9B2E-4102066EF962}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

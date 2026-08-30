@@ -1,6 +1,6 @@
-#include <iostream>
+#include "Diagnostics/Log.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	GamesGoEngine::Log::Info("Hello World!");
 }
