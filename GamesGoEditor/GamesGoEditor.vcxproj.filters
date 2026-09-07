@@ -8,10 +8,21 @@
     <Filter Include="Editor">
       <UniqueIdentifier>{56f122c5-a577-4b0e-953d-3ce21522d2e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Editor\Builders">
+      <UniqueIdentifier>{b69a9129-c179-43a6-9599-a665867d71a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Editor</Filter>
     </ClCompile>
+    <ClCompile Include="Builders\ProjectBuilder.cpp">
+      <Filter>Editor\Builders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Builders\ProjectBuilder.h">
+      <Filter>Editor\Builders</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
