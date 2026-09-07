@@ -84,7 +84,7 @@
       <AdditionalDependencies>GamesGoEngine.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)PostBuildHandler\bin\Debug\net8.0\PostBuildHandler.exe"</Command>
+      <Command>"$(SolutionDir)PostBuildHandler\bin\Debug\net8.0\PostBuildHandler.exe" "$(SolutionDir)GamesGoEngine\GamesGoEngine" "$(TargetDir)."</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -103,7 +103,7 @@
       <AdditionalDependencies>GamesGoEngine.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)PostBuildHandler\bin\Release\net8.0\PostBuildHandler.exe"</Command>
+      <Command>"$(SolutionDir)PostBuildHandler\bin\Release\net8.0\PostBuildHandler.exe" "$(SolutionDir)GamesGoEngine\GamesGoEngine" "$(TargetDir)."</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -121,7 +121,7 @@
       <AdditionalDependencies>GamesGoEngine.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)PostBuildHandler\bin\Debug\net8.0\PostBuildHandler.exe"</Command>
+      <Command>"$(SolutionDir)PostBuildHandler\bin\Debug\net8.0\PostBuildHandler.exe" "$(SolutionDir)GamesGoEngine\GamesGoEngine" "$(TargetDir)."</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -141,7 +141,7 @@
       <AdditionalLibraryDirectories>$(SolutionDir)\x64\Release</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>"$(SolutionDir)PostBuildHandler\bin\Release\net8.0\PostBuildHandler.exe"</Command>
+      <Command>"$(SolutionDir)PostBuildHandler\bin\Release\net8.0\PostBuildHandler.exe" "$(SolutionDir)GamesGoEngine\GamesGoEngine" "$(TargetDir)."</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
